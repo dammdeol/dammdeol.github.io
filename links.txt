@@ -1,2 +1,2 @@
-https://dammdeol.github.io/
-https://github.com/dammdeol
+https://dammdeol.github.io/ --page site
+https://github.com/dammdeol --repo site
