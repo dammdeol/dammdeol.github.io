@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Damm Deolarte</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <h1 class="logo">Damm Deolarte</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="section">
+        <h2>My Projects</h2>
+        <p class="section-intro">A few things I’ve built and shared on GitHub.</p>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+        </div>
+
+        <div class="cards">
+            <article class="card project-card" data-category="html-css">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A personal portfolio built with HTML and CSS and deployed on GitHub Pages.
+                </p>
+                <div class="card-links">
+                    <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener noreferrer"
+                        class="btn small-btn">GitHub</a>
+                    <a href="https://yourusername.github.io/" target="_blank" rel="noopener noreferrer"
+                        class="btn-outline small-btn">Live Demo</a>
+                </div>
+            </article>
+
+            <article class="card project-card" data-category="javascript api">
+                <h3>Weather App</h3>
+                <p>
+                    A simple weather application that fetches real-time data from an API.
+                </p>
+                <div class="card-links">
+                    <a href="https://github.com/yourusername/weather-app" target="_blank" rel="noopener noreferrer"
+                        class="btn small-btn">GitHub</a>
+                    <a href="#" class="btn-outline small-btn">Live Demo</a>
+                </div>
+            </article>
+
+            <article class="card project-card" data-category="python">
+                <h3>Task Manager</h3>
+                <p>
+                    A productivity app for creating, organizing, and tracking daily tasks.
+                </p>
+                <div class="card-links">
+                    <a href="https://github.com/yourusername/task-manager" target="_blank" rel="noopener noreferrer"
+                        class="btn small-btn">GitHub</a>
+                    <a href="#" class="btn-outline small-btn">Live Demo</a>
+                </div>
+            </article>
+
+            <article class="card project-card" data-category="fullstack python html-css">
+                <h3>Hybrid-App</h3>
+                <p>
+                    A hybrid app sample with Flask to manage the pages and FastAPI for the API resources.
+                </p>
+                <div class="card-links">
+                    <a href="https://github.com/yourusername/hybrid-app" target="_blank" rel="noopener noreferrer"
+                        class="btn small-btn">GitHub</a>
+                    <a href="#" class="btn-outline small-btn">Live Demo</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Damm Deolarte. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
